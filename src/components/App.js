@@ -3,8 +3,6 @@ import Header from "./Header";
 import TicketList from "./TicketList";
 
 function App(){
-  const name = "Thato";
-  const name2 = "Haley";
   return (
     <React.Fragment> {/* All components returning more than one element must be wrapped in a <React.Fragment> */}
       <Header />
