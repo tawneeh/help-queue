@@ -11,7 +11,7 @@ class TicketControl extends React.Component {
     };
   }
 
-  handleClick = () => { // arrow notation here is very important
+  handleClick = () => { // need the fat arrow for function binding
     this.setState(prevState => ({
       formVisibleOnPage: !prevState.formVisibleOnPage
     }));
