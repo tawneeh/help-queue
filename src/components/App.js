@@ -1,13 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import TicketList from "./TicketList";
+import TicketControl from "./TicketControl";
 
 function App(){
   return (
     <React.Fragment> {/* All components returning more than one element must be wrapped in a <React.Fragment> */}
       <Header />
-      <TicketList />
-      {/* This is a JSX comment. Avoid adding JSX comments */}
+      <TicketControl />
     </React.Fragment>
   );
 }
