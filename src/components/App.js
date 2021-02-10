@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./Header";
 import TicketControl from "./TicketControl";
+import MyStyledComponent from "./MyStyledComponent";
 
 function App(){
   return (
     <React.Fragment> {/* All components returning more than one element must be wrapped in a <React.Fragment> */}
       <Header />
       <TicketControl />
+      <MyStyledComponent />
     </React.Fragment>
   );
 }
